@@ -29,7 +29,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>calendar-NancyBluebee/index.php at 20200427 · wdaweb/calendar-NancyBluebee</title>
+  <title>calendar-NancyBluebee/calendar.php at 20200427 · wdaweb/calendar-NancyBluebee</title>
     <meta name="description" content="calendar-NancyBluebee created by GitHub Classroom. Contribute to wdaweb/calendar-NancyBluebee development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -39,10 +39,10 @@
     <meta property="og:image" content="https://avatars3.githubusercontent.com/u/54094626?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="wdaweb/calendar-NancyBluebee" /><meta property="og:url" content="https://github.com/wdaweb/calendar-NancyBluebee" /><meta property="og:description" content="calendar-NancyBluebee created by GitHub Classroom. Contribute to wdaweb/calendar-NancyBluebee development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTIxMTczNzM3OmNlNzE5ZGE3NDNlZWZiNDQ1ZGVjZWY5ODIyMmM5NmQyOGVhMjU0ZjBjZDdmZjYyMjllNTgxNTM1NGYwYjc0MTI=--4105bd022598536a01aaba6ffd267fa1ab97e424">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6NTIxMTczNzM3OmFkMmUwNmQzMDk5NTJmODg2ZTE2MzBjMzA2NmUyYWM1NGJjOWFlYmU5NTBlMjIwMWQ0YjQzYmIyYjkzMzIzNjI=--0988a672ebf36c45bf4461cff539f2f95283cc9a">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="1114:1C26:8573BB:E57C69:5EA68BB2" data-pjax-transient="true" /><meta name="html-safe-nonce" content="255752316fa685cb563d7dd943844a4012021ffd" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS93ZGF3ZWIvY2FsZW5kYXItTmFuY3lCbHVlYmVlL3RyZWUvMjAyMDA0MjciLCJyZXF1ZXN0X2lkIjoiMTExNDoxQzI2Ojg1NzNCQjpFNTdDNjk6NUVBNjhCQjIiLCJ2aXNpdG9yX2lkIjoiNDM0ODM0ODYzMDA2MjYyNzkwMCIsInJlZ2lvbl9lZGdlIjoiaWFkIiwicmVnaW9uX3JlbmRlciI6ImlhZCJ9" data-pjax-transient="true" /><meta name="visitor-hmac" content="736b678d7df9faac10f9749f797019a804dac5c6e9c6dc72e4d742c9f57b31ea" data-pjax-transient="true" />
+  <meta name="request-id" content="1131:11CB:EA43D1:163B254:5EA68C0B" data-pjax-transient="true" /><meta name="html-safe-nonce" content="255752316fa685cb563d7dd943844a4012021ffd" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS93ZGF3ZWIvY2FsZW5kYXItTmFuY3lCbHVlYmVlL3RyZWUvMjAyMDA0MjciLCJyZXF1ZXN0X2lkIjoiMTEzMToxMUNCOkVBNDNEMToxNjNCMjU0OjVFQTY4QzBCIiwidmlzaXRvcl9pZCI6IjQzNDgzNDg2MzAwNjI2Mjc5MDAiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="cc12060036c71211d859cfd47a69481d9659386c2282d4123c91438be87b5def" data-pjax-transient="true" />
 
 
 
@@ -76,7 +76,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZTZhMjc4ZTA1ODY5ZjcwYTVkM2U1ZGE0MjZkZDA5ZGJhYmE1MmEyMTIzZDgyZDYwMzI3YWU2N2UxZTM4Yzc0Mnx7InJlbW90ZV9hZGRyZXNzIjoiMjIwLjEyOC4xMzMuMTIzIiwicmVxdWVzdF9pZCI6IjExMTQ6MUMyNjo4NTczQkI6RTU3QzY5OjVFQTY4QkIyIiwidGltZXN0YW1wIjoxNTg3OTczMDU2LCJob3N0IjoiZ2l0aHViLmNvbSJ9">
+      <meta name="js-proxy-site-detection-payload" content="YWQ5NWE1YjZlMzNjMGFkNGM5ZjA1M2QwNDcxYTRhMmExODMxNWMwMjE2YTc4NTQ1NjQ1N2I0NWQ2MmQ5YmZiY3x7InJlbW90ZV9hZGRyZXNzIjoiMjIwLjEyOC4xMzMuMTIzIiwicmVxdWVzdF9pZCI6IjExMzE6MTFDQjpFQTQzRDE6MTYzQjI1NDo1RUE2OEMwQiIsInRpbWVzdGFtcCI6MTU4Nzk3MzEzMiwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
     <meta name="enabled-features" content="MARKETPLACE_SOCIAL_PROOF_CUSTOMERS,MARKETPLACE_TRENDING_SOCIAL_PROOF,MARKETPLACE_RECOMMENDATIONS,MARKETPLACE_PENDING_INSTALLATIONS,GHE_CLOUD_TRIAL,PAGE_STALE_CHECK">
 
@@ -90,7 +90,7 @@
   <meta name="octolytics-dimension-user_id" content="54094626" /><meta name="octolytics-dimension-user_login" content="wdaweb" /><meta name="octolytics-dimension-repository_id" content="256417919" /><meta name="octolytics-dimension-repository_nwo" content="wdaweb/calendar-NancyBluebee" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="256417919" /><meta name="octolytics-dimension-repository_network_root_nwo" content="wdaweb/calendar-NancyBluebee" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -164,7 +164,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="I3GOCR4MAtX1xA/Iz24uCS3oaR0ymPo5woP+eJzM+Mwm5DqarYI6+XS1JcTgLujaOC35T6FC/6M0UTrkDsPXYg==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="xdv29jclpHLQzHMkyhHK8gKnxBxFRhm9uBqGmE44vwbATkJlhKucXlG9WSjlUQwhF2JUTtacHCdOyEIE3DeQqA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -315,7 +315,7 @@
       <img class="avatar avatar-user" height="20" width="20" alt="@NancyBluebee" src="https://avatars3.githubusercontent.com/u/62413571?s=60&amp;v=4" />
       NancyBluebee
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Yj8EE0ehaID5/QIB95zBUy8K1DolptBO5Q/xcH5am+pTQIGmpAYmRYRfVPFuDLenxLgNAODmoaCBZI8KBjRd1A==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="WTt9uzaWIscNwieQRvNxtO6wEOc3yphL9mJ1yWk4nQNoRPgO1TFsAnBgcWDfYwdABQLJ3fKK6aWSCQuzEVZbPQ==" />
       <button type="submit" class="Header-link mr-0 mr-lg-3 py-2 py-lg-3 border-top border-lg-top-0 border-white-fade-15 d-lg-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 17" version="1.1" width="16" height="17" aria-hidden="true"><path fill-rule="evenodd" d="M12 9V7H8V5h4V3l4 3-4 3zm-2 3H6V3L2 1h8v3h1V1c0-.55-.45-1-1-1H1C.45 0 0 .45 0 1v11.38c0 .39.22.73.55.91L6 16.01V13h4c.55 0 1-.45 1-1V8h-1v4z"></path></svg>
         Sign out
@@ -412,7 +412,7 @@
   " data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link btn-block link-gray no-underline js-toggle-user-status-edit toggle-user-status-edit "
-      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:54094626,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:62413571,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;}}" data-hydro-click-hmac="ed27939401c73c013b8230435f60283373d83d52d27084bd921de6b602f44982">
+      role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:54094626,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:62413571,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;}}" data-hydro-click-hmac="3cf554a869c3bb2cafeb55f008dfb07d161841c95a4426134c8f87b0848a7010">
       <div class="d-flex">
         <div class="f6 lh-condensed user-status-header
           d-inline-block v-align-middle
@@ -439,7 +439,7 @@
       </div>
     </summary>
     <details-dialog class="details-dialog rounded-1 anim-fade-in fast Box Box--overlay" role="dialog" tabindex="-1">
-      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="FEiwlkoxk1j/5eY2TqoEEBZzXr0wxMHO0aMy3PXdLqA2HGDxjYGoxjLHfzj+biJplH+EsvXTcJLpMRggWzBB4A==" />
+      <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="position-relative flex-auto js-user-status-form" action="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="put" /><input type="hidden" name="authenticity_token" value="4izzWEwHM1rgDKvddXDv+aNitutZQA95ZhcpipOQ7YnAeCM/i7cIxC0uMtPFtMmAIW5s5JxXviVehQN2PX2CyQ==" />
         <div class="Box-header bg-gray border-bottom p-3">
           <button class="Box-btn-octicon js-toggle-user-status-edit btn-octicon float-right" type="reset" aria-label="Close dialog" data-close-dialog>
             <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
@@ -557,17 +557,17 @@
       </li>
       <li class="dropdown-divider" role="none"></li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-04-27T16:07:36+08:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 30 minutes" value="2020-04-27T16:08:52+08:00">
             in 30 minutes
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-04-27T16:37:36+08:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 1 hour" value="2020-04-27T16:38:52+08:00">
             in 1 hour
           </button>
         </li>
         <li>
-          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-04-27T19:37:36+08:00">
+          <button type="button" class="btn-link dropdown-item ws-normal js-user-status-expire-button" title="in 4 hours" value="2020-04-27T19:38:52+08:00">
             in 4 hours
           </button>
         </li>
@@ -624,10 +624,10 @@
     class="dropdown-item btn-link"
     role="menuitem"
     data-feature-preview-trigger-url="/users/NancyBluebee/feature_previews"
-    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}"
-    data-feature-preview-close-hmac="191ed679880f829e6d5e79ef7b9b7a2e6a398fcd7d598ff827bc11a5c4a8f4e0"
-    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}"
-    data-hydro-click-hmac="6ec36827e26c9bda04c47cb4e066990e4003b40a18443ec150df2e93fac6de7c"
+    data-feature-preview-close-details="{&quot;event_type&quot;:&quot;feature_preview.clicks.close_modal&quot;,&quot;payload&quot;:{&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}"
+    data-feature-preview-close-hmac="290683538fcf9fda6afe2bd20954bc77f18ce510c05ba3004b9501d928febe8a"
+    data-hydro-click="{&quot;event_type&quot;:&quot;feature_preview.clicks.open_modal&quot;,&quot;payload&quot;:{&quot;link_location&quot;:&quot;user_dropdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}"
+    data-hydro-click-hmac="affa2ab4dba3095ae3ba78e02f63515589b9cdfe6a2919637ee70176e4cbc390"
   >
     Feature preview
   </button>
@@ -636,12 +636,12 @@
 
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="VXpBD3/QjRDCRVfRhdp8xiEX5eWnW0YHdYDY0IiMrZFkBcS6nHfD1b/nASEcSgoyyqU832IbN+kR66aq8OJrrw==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="AZnrcw6c/jrDBmLCBC4fnNhtgQ1ZamdVH7K4yxc0Bnsw5m7G7Tuw/76kNDKdvmloM99YN5wqFrt72caxb1rARQ==" />
       
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
-      <input type="text" name="required_field_e64f" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1587973056178" class="form-control" /><input type="hidden" name="timestamp_secret" value="7a030ae0abc9d5ca332b2aff0f5f5bd5cb855d8a60a0ce2848fe604de10b9b5e" class="form-control" />
+      <input type="text" name="required_field_3dfc" hidden="hidden" class="form-control" /><input type="hidden" name="timestamp" value="1587973132480" class="form-control" /><input type="hidden" name="timestamp_secret" value="56779f0fa52174c3c20ae71df8afd08f94c42720da484583e9e299040d48deed" class="form-control" />
 </form>  </details-menu>
 </details>
 
@@ -698,10 +698,10 @@
       <p class="shelf-lead">
           Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
       </p>
-      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="56a95c9308c3e54128ffa0fe38d79ea8caef617f11f1c641bebb1aceca35b673" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
+      <a class="btn btn-primary shelf-cta" target="_blank" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;READ_GUIDE&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="3f85cdbaa9e9c34a42ab030eea56686992621d41261cfb36bce063542be61245" href="https://guides.github.com/activities/hello-world/">Read the guide</a>
     </div>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="nbAYzSQKL4WqX7/NpVLyghte6y7p0ZonBBN+IRNANj1Cbn5sF0GkVHNI289rk6Jm7dJCFSxdOtV8n99aa0YMJQ==" />
-      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="ab408188e1efb344108e3e1dcb81f76c099e1b5ded43383968d0bf6cb1442d64">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="shelf-dismiss js-notice-dismiss" action="/dashboard/dismiss_bootcamp" accept-charset="UTF-8" method="post"><input type="hidden" name="_method" value="delete" /><input type="hidden" name="authenticity_token" value="jl3an+O3ZhkXkpugOY0y245I2fj4AVdmpWAbmY7SdShRg7w+0PztyM6F/6L3TGI/eMRwwz2N95Td7Lri9tRPMA==" />
+      <button name="button" type="submit" class="mr-1 close-button tooltipped tooltipped-w" aria-label="Hide this notice forever" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;DISMISS_BANNER&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="bc28afc9b347b3a00cf00b590d1590c5715f3ce933e3422a7249f1b3f90e2945">
         <svg aria-label="Hide this notice forever" class="octicon octicon-x v-align-text-top" viewBox="0 0 12 16" version="1.1" width="12" height="16" role="img"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
 </button></form>  </div>
 </div>
@@ -744,13 +744,17 @@
 
 
 
+    <li hidden>
+      <include-fragment src="/wdaweb/calendar-NancyBluebee/used_by_count" accept="text/fragment+html">
+</include-fragment>
+    </li>
 
   <li>
     
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="+oxSiZpwcBFxPD07P9pGs00pLzQTr6aCMHKJ9irKD2vK8Ih9Uri9dYLAm0qKCIbmdYXOR1fJoUD/Z3sTEkNFRw==" />      <input type="hidden" name="repository_id" value="256417919">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="4RcaIDM+eg7Ti2fKdEvTq6GJ5UyKmNNqy1gzOsk2mUPRa8DU+/a3aiB3wbvBmRP+mSUEP87+1KgETcHf8b/Tbw==" />      <input type="hidden" name="repository_id" value="256417919">
 
       <details class="details-reset details-overlay select-menu float-left">
-        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="047490ad41d8e45e82c32812d166ace5a4db64b3943a625c68b850308341470d" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
+        <summary class="select-menu-button float-left btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="edbe19b19bddc3770be79aa3c7639ea2526e46e82f2df3e8627b0c3d8498bafa" data-ga-click="Repository, click Watch settings, action:blob#show">          <span data-menu-button>
               <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
               Watch
           </span>
@@ -821,9 +825,9 @@
 
   <li>
       <div class="js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/wdaweb/calendar-NancyBluebee/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="3m5Ry+zXLgWeL3GTa0vxS6TIVbe+88+W49tq/DtndErgLxzYJO1RpMKJmxeWOl34/ld8cQhFPXpZ0O9EMhQwYg==" />
+    <form class="starred js-social-form" action="/wdaweb/calendar-NancyBluebee/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="SblTe0rOChixscvq1oYdgiJTpPtJvUFda1v7VfIkn9h3+B5ogvR1ue0XIW4r97ExeMyNPf8Ls7HRUH7t+1fb8A==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar wdaweb/calendar-NancyBluebee" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="b802060b7816699b9031f36e69ad86e49b7ecfdbfd9ea3fb4f9aa2decaacce0d" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Unstar wdaweb/calendar-NancyBluebee" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="4a729f8d88b3fede37b0c2111eca034b023fd3fc5ff88a2dc8835cdeaf3ff879" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
 
         Unstar
 </button>        <a class="social-count js-social-count" href="/wdaweb/calendar-NancyBluebee/stargazers"
@@ -831,9 +835,9 @@
            0
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/wdaweb/calendar-NancyBluebee/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="NhK1nBNe6vJNZ9IBWmwyST0espcVhdhb+CI14u+fpTF6UGx3Vm0H29/bEh3O3+bqG9eSQBubw77NRXq66j45qQ==" />
+    <form class="unstarred js-social-form" action="/wdaweb/calendar-NancyBluebee/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sYeLQ6UzgLWBX7d7+py8dRx0f3PZxm4SRGHtKz42bMz9xVKo4ABtnBPjd2duL2jWOr1fpNfYdfdxBqJzO5fwVA==" />
       <input type="hidden" name="context" value="repository"></input>
-      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star wdaweb/calendar-NancyBluebee" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="def2d5aba8c258b0056998efd5e6e4bf7d649c00c6e2236fc34153f4ee2ab62d" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count js-toggler-target" aria-label="Unstar this repository" title="Star wdaweb/calendar-NancyBluebee" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="9d381542ced197106ae9d5aec6a21f12cee2164a215e8d35b5042989df886ed3" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg height="16" class="octicon octicon-star v-align-text-bottom" vertical_align="text_bottom" viewBox="0 0 14 16" version="1.1" width="14" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
 
         Star
 </button>        <a class="social-count js-social-count" href="/wdaweb/calendar-NancyBluebee/stargazers"
@@ -845,8 +849,8 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/wdaweb/calendar-NancyBluebee/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="JxFrZt4AVCA0ibvaijEfUWH1WnEQzmsYzLOL/TLa26oMxa4zRl1/G8pP7G+fqeJWXs3jRMFtDnKePhf+ZqQwiw==" />
-            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/index.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="84f5f233cc0741b4620c3faafe2f6cf77b5545eb7f4878532deccf5e0e5a0642" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of wdaweb/calendar-NancyBluebee to your account" aria-label="Fork your own copy of wdaweb/calendar-NancyBluebee to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/wdaweb/calendar-NancyBluebee/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="bTmZ7BTXy++3VkxQwSJT5wFSeLZ9m5UwkcDfySAEeEdG7Vy5jIrg1EmQG+XUuq7gPmrBg6w48FrDTUPKdHqTZg==" />
+            <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:256417919,&quot;originating_url&quot;:&quot;https://github.com/wdaweb/calendar-NancyBluebee/blob/20200427/calendar.php&quot;,&quot;user_id&quot;:62413571}}" data-hydro-click-hmac="40b143906ba4b50ee38a00ac64962ca234c8c3422eb384cd220bb18f1484f7ac" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of wdaweb/calendar-NancyBluebee to your account" aria-label="Fork your own copy of wdaweb/calendar-NancyBluebee to your account">              <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 00-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 002 1a1.993 1.993 0 00-1 3.72V6.5l3 3v1.78A1.993 1.993 0 005 15a1.993 1.993 0 001-3.72V9.5l3-3V4.72A1.993 1.993 0 008 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
               Fork
 </button></form>
     <a href="/wdaweb/calendar-NancyBluebee/network/members" class="social-count"
@@ -994,9 +998,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/wdaweb/calendar-NancyBluebee/blob/a3c30a6f892011f0d987c41ca60a5e85117782a6/index.php">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/wdaweb/calendar-NancyBluebee/blob/a3c30a6f892011f0d987c41ca60a5e85117782a6/calendar.php">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:8ba13fe6d405ee11fc49af387d73d636 -->
+    <!-- blob contrib key: blob_contributors:v22:9a3fd580ac3bb9596b069c1593bb2507 -->
     
 
     <div class="d-flex flex-items-start flex-shrink-0 flex-column flex-md-row pb-3">
@@ -1011,7 +1015,7 @@
     <span class="dropdown-caret"></span>
   </summary>
 
-  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/wdaweb/calendar-NancyBluebee/refs/20200427/index.php?source_action=show&amp;source_controller=blob" preload>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" src="/wdaweb/calendar-NancyBluebee/refs/20200427/calendar.php?source_action=show&amp;source_controller=blob" preload>
     <div class="SelectMenu-modal">
       <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
         <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M14.7 5.34c.13-.32.55-1.59-.13-3.31 0 0-1.05-.33-3.44 1.3-1-.28-2.07-.32-3.13-.32s-2.13.04-3.13.32c-2.39-1.64-3.44-1.3-3.44-1.3-.68 1.72-.26 2.99-.13 3.31C.49 6.21 0 7.33 0 8.69 0 13.84 3.33 15 7.98 15S16 13.84 16 8.69c0-1.36-.49-2.48-1.3-3.35zM8 14.02c-3.3 0-5.98-.15-5.98-3.35 0-.76.38-1.48 1.02-2.07 1.07-.98 2.9-.46 4.96-.46 2.07 0 3.88-.52 4.96.46.65.59 1.02 1.3 1.02 2.07 0 3.19-2.68 3.35-5.98 3.35zM5.49 9.01c-.66 0-1.2.8-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.54-1.78-1.2-1.78zm5.02 0c-.66 0-1.2.79-1.2 1.78s.54 1.79 1.2 1.79c.66 0 1.2-.8 1.2-1.79s-.53-1.78-1.2-1.78z"></path></svg>
@@ -1027,13 +1031,13 @@
                 data-hotkey="t">
             Find file
           </a>
-          <clipboard-copy value="index.php" class="btn btn-sm BtnGroup-item">
+          <clipboard-copy value="calendar.php" class="btn btn-sm BtnGroup-item">
             Copy path
           </clipboard-copy>
         </div>
       </span>
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal flex-md-self-center ml-md-2 mr-md-3 my-2 my-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/wdaweb/calendar-NancyBluebee/tree/20200427"><span>calendar-NancyBluebee</span></a></span></span><span class="separator">/</span><strong class="final-path">index.php</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment"><a data-pjax="true" href="/wdaweb/calendar-NancyBluebee/tree/20200427"><span>calendar-NancyBluebee</span></a></span></span><span class="separator">/</span><strong class="final-path">calendar.php</strong>
       </h2>
 
       <div class="BtnGroup flex-shrink-0 d-none d-md-inline-block">
@@ -1043,7 +1047,7 @@
               data-hotkey="t">
           Find file
         </a>
-        <clipboard-copy value="index.php" class="btn btn-sm BtnGroup-item">
+        <clipboard-copy value="calendar.php" class="btn btn-sm BtnGroup-item">
           Copy path
         </clipboard-copy>
       </div>
@@ -1051,7 +1055,7 @@
 
 
 
-    <include-fragment src="/wdaweb/calendar-NancyBluebee/contributors/20200427/index.php" class="Box Box--condensed commit-loader">
+    <include-fragment src="/wdaweb/calendar-NancyBluebee/contributors/20200427/calendar.php" class="Box Box--condensed commit-loader">
       <div class="Box-body bg-blue-light f6">
         Fetching contributors&hellip;
       </div>
@@ -1072,17 +1076,17 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      18 lines (16 sloc)
+      215 lines (136 sloc)
       <span class="file-info-divider"></span>
-    383 Bytes
+    6.43 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/wdaweb/calendar-NancyBluebee/raw/20200427/index.php">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/wdaweb/calendar-NancyBluebee/blame/20200427/index.php">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/wdaweb/calendar-NancyBluebee/commits/20200427/index.php">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/wdaweb/calendar-NancyBluebee/raw/20200427/calendar.php">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/wdaweb/calendar-NancyBluebee/blame/20200427/calendar.php">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/wdaweb/calendar-NancyBluebee/commits/20200427/calendar.php">History</a>
     </div>
 
 
@@ -1095,13 +1099,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/wdaweb/calendar-NancyBluebee/edit/20200427/index.php" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="qBTmWwz74ROUiLTgFGWbScOk9bFKAltcfQdyiJ1hjLs8xzYnXjUyDk1MjfxURPNxVHO3RgzJBzQCQbWyE2KlKQ==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/wdaweb/calendar-NancyBluebee/edit/20200427/calendar.php" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="DQSqfhfr9q1aiMoa7qSy11L0QRZ9G9qMZQIQBQ5kr2OVhdYtz7Dzm9y2Ib+cy8x+ZzeXete9rbbsUY5qqSrFtw==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit this file" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 011.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/wdaweb/calendar-NancyBluebee/delete/20200427/index.php" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="e/2DBo4wDfxjxCdU7xhGMDzdUHJlpvuArvtxR9p451w/TPcVxMkBgqVlNfDTKz3B0SaIajZYzpOB5TyR8lev9g==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/wdaweb/calendar-NancyBluebee/delete/20200427/calendar.php" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="/pGZcABfvMFU06rguP98Or/6qqmbtlnbkJ3LvTkAVmWN4ZWeC7SxPn8F5lkfYnNC5qosaUUQolrnKacyDPWidg==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete this file" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"></path></svg>
@@ -1119,75 +1123,866 @@
 <table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-c1>&lt;!DOCTYPE html<span class=pl-kos>&gt;</span></span></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;</span><span class=pl-ent>html</span> <span class=pl-c1>lang</span>=&quot;<span class=pl-s>zh-tw</span>&quot;<span class=pl-kos>&gt;</span></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;</span><span class=pl-ent>head</span><span class=pl-kos>&gt;</span> </td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;</span><span class=pl-ent>meta</span> <span class=pl-c1>charset</span>=&quot;<span class=pl-s>UTF-8</span>&quot;<span class=pl-kos>&gt;</span></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>&lt;?php</span></td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;</span><span class=pl-ent>meta</span> <span class=pl-c1>name</span>=&quot;<span class=pl-s>viewport</span>&quot; <span class=pl-c1>content</span>=&quot;<span class=pl-s>width=device-width, initial-scale=1.0</span>&quot;<span class=pl-kos>&gt;</span> </td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>Calendar</span> {  </td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line">    <span class=pl-kos>&lt;</span><span class=pl-ent>title</span><span class=pl-kos>&gt;</span>萬年曆作業<span class=pl-kos>&lt;/</span><span class=pl-ent>title</span><span class=pl-kos>&gt;</span> </td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line">     </td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;</span><span class=pl-ent>link</span> <span class=pl-c1>href</span>=&quot;<span class=pl-s>calendar.css</span>&quot; <span class=pl-c1>type</span>=&quot;<span class=pl-s>text/css</span>&quot; <span class=pl-c1>rel</span>=&quot;<span class=pl-s>stylesheet</span>&quot; /&gt;</td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;/</span><span class=pl-ent>head</span><span class=pl-kos>&gt;</span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-c>     * Constructor</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;</span><span class=pl-ent>body</span><span class=pl-kos>&gt;</span></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class=pl-c>     */</span></td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>&lt;?php</span></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>public</span> <span class=pl-k>function</span> <span class=pl-en>__construct</span>(){     </td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-k>include</span> <span class=pl-s>&#39;calendar.php&#39;</span>;</td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>naviHref</span> = <span class=pl-en>htmlentities</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-c1>_SERVER</span></span>[<span class=pl-s>&#39;PHP_SELF&#39;</span>]);</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line"> </td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">    }</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class=pl-s1><span class=pl-c1>$</span>calendar</span> = <span class=pl-k>new</span> <span class=pl-v>Calendar</span>();</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">     </td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line"> </td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/********************* PROPERTY ********************/</span>  </td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-k>echo</span> <span class=pl-s1><span class=pl-c1>$</span>calendar</span>-&gt;<span class=pl-en>show</span>();</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>dayLabels</span> = <span class=pl-en>array</span>(<span class=pl-s>&quot;一&quot;</span>,<span class=pl-s>&quot;二&quot;</span>,<span class=pl-s>&quot;三&quot;</span>,<span class=pl-s>&quot;四&quot;</span>,<span class=pl-s>&quot;五&quot;</span>,<span class=pl-s>&quot;六&quot;</span>,<span class=pl-s>&quot;日&quot;</span>);</td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class=pl-ent>?&gt;</span></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">     </td>
       </tr>
       <tr>
         <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="LC17" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;/</span><span class=pl-ent>body</span><span class=pl-kos>&gt;</span></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>currentYear</span>=<span class=pl-c1>0</span>;</td>
       </tr>
       <tr>
         <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="LC18" class="blob-code blob-code-inner js-file-line"><span class=pl-kos>&lt;/</span><span class=pl-ent>html</span><span class=pl-kos>&gt;</span>  </td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>currentMonth</span>=<span class=pl-c1>0</span>;</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>currentDay</span>=<span class=pl-c1>0</span>;</td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>currentDate</span>=<span class=pl-c1>null</span>;</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>daysInMonth</span>=<span class=pl-c1>0</span>;</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-c1><span class=pl-c1>$</span>naviHref</span>= <span class=pl-c1>null</span>;</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/********************* PUBLIC **********************/</span>  </td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">        </td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    * print out the calendar</span></td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    */</span></td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>public</span> <span class=pl-k>function</span> <span class=pl-en>show</span>() {</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>year</span>  = <span class=pl-c1>null</span>;</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>month</span> = <span class=pl-c1>null</span>;</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-c1>null</span>==<span class=pl-s1><span class=pl-c1>$</span>year</span>&amp;&amp;<span class=pl-en>isset</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-c1>_GET</span></span>[<span class=pl-s>&#39;year&#39;</span>])){</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>year</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-c1>_GET</span></span>[<span class=pl-s>&#39;year&#39;</span>];</td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">        }<span class=pl-k>else</span> <span class=pl-k>if</span>(<span class=pl-c1>null</span>==<span class=pl-s1><span class=pl-c1>$</span>year</span>){</td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>year</span> = <span class=pl-en>date</span>(<span class=pl-s>&quot;Y&quot;</span>,<span class=pl-en>time</span>());  </td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">        }          </td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-c1>null</span>==<span class=pl-s1><span class=pl-c1>$</span>month</span>&amp;&amp;<span class=pl-en>isset</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-c1>_GET</span></span>[<span class=pl-s>&#39;month&#39;</span>])){</td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>month</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-c1>_GET</span></span>[<span class=pl-s>&#39;month&#39;</span>];</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">        }<span class=pl-k>else</span> <span class=pl-k>if</span>(<span class=pl-c1>null</span>==<span class=pl-s1><span class=pl-c1>$</span>month</span>){</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>month</span> = <span class=pl-en>date</span>(<span class=pl-s>&quot;m&quot;</span>,<span class=pl-en>time</span>());</td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">        }                  </td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>=<span class=pl-s1><span class=pl-c1>$</span>year</span>;</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>=<span class=pl-s1><span class=pl-c1>$</span>month</span>;</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>daysInMonth</span>=<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-en>_daysInMonth</span>(<span class=pl-s1><span class=pl-c1>$</span>month</span>,<span class=pl-s1><span class=pl-c1>$</span>year</span>);  </td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>content</span>=<span class=pl-s>&#39;&lt;div id=&quot;calendar&quot;&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s>&#39;&lt;div class=&quot;box&quot;&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-en>_createNavi</span>().</td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s>&#39;&lt;/div&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s>&#39;&lt;div class=&quot;box-content&quot;&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s>&#39;&lt;ul class=&quot;label&quot;&gt;&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-en>_createLabels</span>().<span class=pl-s>&#39;&lt;/ul&gt;&#39;</span>;   </td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;&#39;</span>;     </td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;ul class=&quot;dates&quot;&gt;&#39;</span>;    </td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">                                 </td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s1><span class=pl-c1>$</span>weeksInMonth</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-en>_weeksInMonth</span>(<span class=pl-s1><span class=pl-c1>$</span>month</span>,<span class=pl-s1><span class=pl-c1>$</span>year</span>);</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">                                <span class=pl-c>// Create weeks in a month</span></td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line">                                for( <span class=pl-s1><span class=pl-c1>$</span>i</span>=<span class=pl-c1>0</span>; <span class=pl-s1><span class=pl-c1>$</span>i</span>&lt;<span class=pl-s1><span class=pl-c1>$</span>weeksInMonth</span>; <span class=pl-s1><span class=pl-c1>$</span>i</span>++ ){</td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">                                     </td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">                                    <span class=pl-c>//Create days in a week</span></td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line">                                    for(<span class=pl-s1><span class=pl-c1>$</span>j</span>=<span class=pl-c1>1</span>;<span class=pl-s1><span class=pl-c1>$</span>j</span>&lt;=<span class=pl-c1>7</span>;<span class=pl-s1><span class=pl-c1>$</span>j</span>++){</td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">                                        <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-en>_showDay</span>(<span class=pl-s1><span class=pl-c1>$</span>i</span>*<span class=pl-c1>7</span>+<span class=pl-s1><span class=pl-c1>$</span>j</span>);</td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">                                    }</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">                                }</td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">                                 </td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;/ul&gt;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line">                                 </td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;div class=&quot;clear&quot;&gt;&lt;/div&gt;&#39;</span>;     </td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;/div&gt;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">                 </td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;/div&gt;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1><span class=pl-c1>$</span>content</span>;   </td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/********************* PRIVATE **********************/</span> </td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    * create the li element for ul</span></td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    */</span></td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-k>function</span> <span class=pl-en>_showDay</span>(<span class=pl-s1><span class=pl-c1>$</span>cellNumber</span>){</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>==<span class=pl-c1>0</span>){</td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>firstDayOfTheWeek</span> = <span class=pl-en>date</span>(<span class=pl-s>&#39;N&#39;</span>,<span class=pl-en>strtotime</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>.<span class=pl-s>&#39;-01&#39;</span>));</td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">                     </td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span>(<span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span>cellNumber</span>) == <span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span>firstDayOfTheWeek</span>)){</td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">                 </td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>=<span class=pl-c1>1</span>;</td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">                 </td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">            }</td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>( (<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>!=<span class=pl-c1>0</span>)&amp;&amp;(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>&lt;=<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>daysInMonth</span>) ){</td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDate</span> = <span class=pl-en>date</span>(<span class=pl-s>&#39;Y-m-d&#39;</span>,<span class=pl-en>strtotime</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>.<span class=pl-s>&#39;-&#39;</span>.(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>)));</td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>cellContent</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>;</td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDay</span>++;   </td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">        }<span class=pl-k>else</span>{</td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDate</span> =<span class=pl-c1>null</span>;</td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>cellContent</span>=<span class=pl-c1>null</span>;</td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&#39;&lt;li id=&quot;li-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentDate</span>.<span class=pl-s>&#39;&quot; class=&quot;&#39;</span>.(<span class=pl-s1><span class=pl-c1>$</span>cellNumber</span>%<span class=pl-c1>7</span>==<span class=pl-c1>1</span>?<span class=pl-s>&#39; start &#39;</span>:(<span class=pl-s1><span class=pl-c1>$</span>cellNumber</span>%<span class=pl-c1>7</span>==<span class=pl-c1>0</span>?<span class=pl-s>&#39; end &#39;</span>:<span class=pl-s>&#39; &#39;</span>)).</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">                (<span class=pl-s1><span class=pl-c1>$</span>cellContent</span>==<span class=pl-c1>null</span>?<span class=pl-s>&#39;mask&#39;</span>:<span class=pl-s>&#39;&#39;</span>).<span class=pl-s>&#39;&quot;&gt;&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>cellContent</span>.<span class=pl-s>&#39;&lt;/li&gt;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    * create navigation</span></td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    */</span></td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-k>function</span> <span class=pl-en>_createNavi</span>(){</td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>nextMonth</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>==<span class=pl-c1>12</span>?<span class=pl-c1>1</span>:<span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>)+<span class=pl-c1>1</span>;</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>nextYear</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>==<span class=pl-c1>12</span>?<span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>)+<span class=pl-c1>1</span>:<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>;</td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>preMonth</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>==<span class=pl-c1>1</span>?<span class=pl-c1>12</span>:<span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>)-<span class=pl-c1>1</span>;</td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>preYear</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>==<span class=pl-c1>1</span>?<span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>)-<span class=pl-c1>1</span>:<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>;</td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span></td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&#39;&lt;div class=&quot;header&quot;&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line">                <span class=pl-s>&#39;&lt;a class=&quot;prev&quot; href=&quot;&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>naviHref</span>.<span class=pl-s>&#39;?month=&#39;</span>.<span class=pl-en>sprintf</span>(<span class=pl-s>&#39;%02d&#39;</span>,<span class=pl-s1><span class=pl-c1>$</span>preMonth</span>).<span class=pl-s>&#39;&amp;year=&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>preYear</span>.<span class=pl-s>&#39;&quot;&gt;Prev&lt;/a&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s>&#39;&lt;span class=&quot;title&quot;&gt;&#39;</span>.<span class=pl-en>date</span>(<span class=pl-s>&#39;Y M&#39;</span>,<span class=pl-en>strtotime</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentYear</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>currentMonth</span>.<span class=pl-s>&#39;-1&#39;</span>)).<span class=pl-s>&#39;&lt;/span&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line">                <span class=pl-s>&#39;&lt;a class=&quot;next&quot; href=&quot;&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>naviHref</span>.<span class=pl-s>&#39;?month=&#39;</span>.<span class=pl-en>sprintf</span>(<span class=pl-s>&quot;%02d&quot;</span>, <span class=pl-s1><span class=pl-c1>$</span>nextMonth</span>).<span class=pl-s>&#39;&amp;year=&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>nextYear</span>.<span class=pl-s>&#39;&quot;&gt;Next&lt;/a&gt;&#39;</span>.</td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&#39;&lt;/div&gt;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    * create calendar week labels</span></td>
+      </tr>
+      <tr>
+        <td id="L154" class="blob-num js-line-number" data-line-number="154"></td>
+        <td id="LC154" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    */</span></td>
+      </tr>
+      <tr>
+        <td id="L155" class="blob-num js-line-number" data-line-number="155"></td>
+        <td id="LC155" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-k>function</span> <span class=pl-en>_createLabels</span>(){  </td>
+      </tr>
+      <tr>
+        <td id="L156" class="blob-num js-line-number" data-line-number="156"></td>
+        <td id="LC156" class="blob-code blob-code-inner js-file-line">                 </td>
+      </tr>
+      <tr>
+        <td id="L157" class="blob-num js-line-number" data-line-number="157"></td>
+        <td id="LC157" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>content</span>=<span class=pl-s>&#39;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L158" class="blob-num js-line-number" data-line-number="158"></td>
+        <td id="LC158" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L159" class="blob-num js-line-number" data-line-number="159"></td>
+        <td id="LC159" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>foreach</span>(<span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-c1>dayLabels</span> <span class=pl-k>as</span> <span class=pl-s1><span class=pl-c1>$</span>index</span>=&gt;<span class=pl-s1><span class=pl-c1>$</span>label</span>){</td>
+      </tr>
+      <tr>
+        <td id="L160" class="blob-num js-line-number" data-line-number="160"></td>
+        <td id="LC160" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L161" class="blob-num js-line-number" data-line-number="161"></td>
+        <td id="LC161" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>content</span>.=<span class=pl-s>&#39;&lt;li class=&quot;&#39;</span>.(<span class=pl-s1><span class=pl-c1>$</span>label</span>==<span class=pl-c1>6</span>?<span class=pl-s>&#39;end title&#39;</span>:<span class=pl-s>&#39;start title&#39;</span>).<span class=pl-s>&#39; title&quot;&gt;&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>label</span>.<span class=pl-s>&#39;&lt;/li&gt;&#39;</span>;</td>
+      </tr>
+      <tr>
+        <td id="L162" class="blob-num js-line-number" data-line-number="162"></td>
+        <td id="LC162" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L163" class="blob-num js-line-number" data-line-number="163"></td>
+        <td id="LC163" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L164" class="blob-num js-line-number" data-line-number="164"></td>
+        <td id="LC164" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L165" class="blob-num js-line-number" data-line-number="165"></td>
+        <td id="LC165" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1><span class=pl-c1>$</span>content</span>;</td>
+      </tr>
+      <tr>
+        <td id="L166" class="blob-num js-line-number" data-line-number="166"></td>
+        <td id="LC166" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L167" class="blob-num js-line-number" data-line-number="167"></td>
+        <td id="LC167" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L168" class="blob-num js-line-number" data-line-number="168"></td>
+        <td id="LC168" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L169" class="blob-num js-line-number" data-line-number="169"></td>
+        <td id="LC169" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L170" class="blob-num js-line-number" data-line-number="170"></td>
+        <td id="LC170" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
+      </tr>
+      <tr>
+        <td id="L171" class="blob-num js-line-number" data-line-number="171"></td>
+        <td id="LC171" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    * calculate number of weeks in a particular month</span></td>
+      </tr>
+      <tr>
+        <td id="L172" class="blob-num js-line-number" data-line-number="172"></td>
+        <td id="LC172" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    */</span></td>
+      </tr>
+      <tr>
+        <td id="L173" class="blob-num js-line-number" data-line-number="173"></td>
+        <td id="LC173" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-k>function</span> <span class=pl-en>_weeksInMonth</span>(<span class=pl-s1><span class=pl-c1>$</span>month</span>=<span class=pl-c1>null</span>,<span class=pl-s1><span class=pl-c1>$</span>year</span>=<span class=pl-c1>null</span>){</td>
+      </tr>
+      <tr>
+        <td id="L174" class="blob-num js-line-number" data-line-number="174"></td>
+        <td id="LC174" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L175" class="blob-num js-line-number" data-line-number="175"></td>
+        <td id="LC175" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>( <span class=pl-c1>null</span>==(<span class=pl-s1><span class=pl-c1>$</span>year</span>) ) {</td>
+      </tr>
+      <tr>
+        <td id="L176" class="blob-num js-line-number" data-line-number="176"></td>
+        <td id="LC176" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>year</span> =  <span class=pl-en>date</span>(<span class=pl-s>&quot;Y&quot;</span>,<span class=pl-en>time</span>()); </td>
+      </tr>
+      <tr>
+        <td id="L177" class="blob-num js-line-number" data-line-number="177"></td>
+        <td id="LC177" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L178" class="blob-num js-line-number" data-line-number="178"></td>
+        <td id="LC178" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L179" class="blob-num js-line-number" data-line-number="179"></td>
+        <td id="LC179" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-c1>null</span>==(<span class=pl-s1><span class=pl-c1>$</span>month</span>)) {</td>
+      </tr>
+      <tr>
+        <td id="L180" class="blob-num js-line-number" data-line-number="180"></td>
+        <td id="LC180" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>month</span> = <span class=pl-en>date</span>(<span class=pl-s>&quot;m&quot;</span>,<span class=pl-en>time</span>());</td>
+      </tr>
+      <tr>
+        <td id="L181" class="blob-num js-line-number" data-line-number="181"></td>
+        <td id="LC181" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L182" class="blob-num js-line-number" data-line-number="182"></td>
+        <td id="LC182" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L183" class="blob-num js-line-number" data-line-number="183"></td>
+        <td id="LC183" class="blob-code blob-code-inner js-file-line">        <span class=pl-c>// find number of days in this month</span></td>
+      </tr>
+      <tr>
+        <td id="L184" class="blob-num js-line-number" data-line-number="184"></td>
+        <td id="LC184" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>daysInMonths</span> = <span class=pl-s1><span class=pl-c1>$</span><span class=pl-smi>this</span></span>-&gt;<span class=pl-en>_daysInMonth</span>(<span class=pl-s1><span class=pl-c1>$</span>month</span>,<span class=pl-s1><span class=pl-c1>$</span>year</span>);</td>
+      </tr>
+      <tr>
+        <td id="L185" class="blob-num js-line-number" data-line-number="185"></td>
+        <td id="LC185" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L186" class="blob-num js-line-number" data-line-number="186"></td>
+        <td id="LC186" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>numOfweeks</span> = (<span class=pl-s1><span class=pl-c1>$</span>daysInMonths</span>%<span class=pl-c1>7</span>==<span class=pl-c1>0</span>?<span class=pl-c1>0</span>:<span class=pl-c1>1</span>) + <span class=pl-en>intval</span>(<span class=pl-s1><span class=pl-c1>$</span>daysInMonths</span>/<span class=pl-c1>7</span>);</td>
+      </tr>
+      <tr>
+        <td id="L187" class="blob-num js-line-number" data-line-number="187"></td>
+        <td id="LC187" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L188" class="blob-num js-line-number" data-line-number="188"></td>
+        <td id="LC188" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>monthEndingDay</span>= <span class=pl-en>date</span>(<span class=pl-s>&#39;N&#39;</span>,<span class=pl-en>strtotime</span>(<span class=pl-s1><span class=pl-c1>$</span>year</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>month</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>daysInMonths</span>));</td>
+      </tr>
+      <tr>
+        <td id="L189" class="blob-num js-line-number" data-line-number="189"></td>
+        <td id="LC189" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L190" class="blob-num js-line-number" data-line-number="190"></td>
+        <td id="LC190" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1><span class=pl-c1>$</span>monthStartDay</span> = <span class=pl-en>date</span>(<span class=pl-s>&#39;N&#39;</span>,<span class=pl-en>strtotime</span>(<span class=pl-s1><span class=pl-c1>$</span>year</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>month</span>.<span class=pl-s>&#39;-01&#39;</span>));</td>
+      </tr>
+      <tr>
+        <td id="L191" class="blob-num js-line-number" data-line-number="191"></td>
+        <td id="LC191" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L192" class="blob-num js-line-number" data-line-number="192"></td>
+        <td id="LC192" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-s1><span class=pl-c1>$</span>monthEndingDay</span>&lt;<span class=pl-s1><span class=pl-c1>$</span>monthStartDay</span>){</td>
+      </tr>
+      <tr>
+        <td id="L193" class="blob-num js-line-number" data-line-number="193"></td>
+        <td id="LC193" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L194" class="blob-num js-line-number" data-line-number="194"></td>
+        <td id="LC194" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>numOfweeks</span>++;</td>
+      </tr>
+      <tr>
+        <td id="L195" class="blob-num js-line-number" data-line-number="195"></td>
+        <td id="LC195" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L196" class="blob-num js-line-number" data-line-number="196"></td>
+        <td id="LC196" class="blob-code blob-code-inner js-file-line">        }</td>
+      </tr>
+      <tr>
+        <td id="L197" class="blob-num js-line-number" data-line-number="197"></td>
+        <td id="LC197" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L198" class="blob-num js-line-number" data-line-number="198"></td>
+        <td id="LC198" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1><span class=pl-c1>$</span>numOfweeks</span>;</td>
+      </tr>
+      <tr>
+        <td id="L199" class="blob-num js-line-number" data-line-number="199"></td>
+        <td id="LC199" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L200" class="blob-num js-line-number" data-line-number="200"></td>
+        <td id="LC200" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L201" class="blob-num js-line-number" data-line-number="201"></td>
+        <td id="LC201" class="blob-code blob-code-inner js-file-line">    <span class=pl-c>/**</span></td>
+      </tr>
+      <tr>
+        <td id="L202" class="blob-num js-line-number" data-line-number="202"></td>
+        <td id="LC202" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    * calculate number of days in a particular month</span></td>
+      </tr>
+      <tr>
+        <td id="L203" class="blob-num js-line-number" data-line-number="203"></td>
+        <td id="LC203" class="blob-code blob-code-inner js-file-line"><span class=pl-c>    */</span></td>
+      </tr>
+      <tr>
+        <td id="L204" class="blob-num js-line-number" data-line-number="204"></td>
+        <td id="LC204" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>private</span> <span class=pl-k>function</span> <span class=pl-en>_daysInMonth</span>(<span class=pl-s1><span class=pl-c1>$</span>month</span>=<span class=pl-c1>null</span>,<span class=pl-s1><span class=pl-c1>$</span>year</span>=<span class=pl-c1>null</span>){</td>
+      </tr>
+      <tr>
+        <td id="L205" class="blob-num js-line-number" data-line-number="205"></td>
+        <td id="LC205" class="blob-code blob-code-inner js-file-line">         </td>
+      </tr>
+      <tr>
+        <td id="L206" class="blob-num js-line-number" data-line-number="206"></td>
+        <td id="LC206" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-c1>null</span>==(<span class=pl-s1><span class=pl-c1>$</span>year</span>))</td>
+      </tr>
+      <tr>
+        <td id="L207" class="blob-num js-line-number" data-line-number="207"></td>
+        <td id="LC207" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>year</span> =  <span class=pl-en>date</span>(<span class=pl-s>&quot;Y&quot;</span>,<span class=pl-en>time</span>()); </td>
+      </tr>
+      <tr>
+        <td id="L208" class="blob-num js-line-number" data-line-number="208"></td>
+        <td id="LC208" class="blob-code blob-code-inner js-file-line"> </td>
+      </tr>
+      <tr>
+        <td id="L209" class="blob-num js-line-number" data-line-number="209"></td>
+        <td id="LC209" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span>(<span class=pl-c1>null</span>==(<span class=pl-s1><span class=pl-c1>$</span>month</span>))</td>
+      </tr>
+      <tr>
+        <td id="L210" class="blob-num js-line-number" data-line-number="210"></td>
+        <td id="LC210" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1><span class=pl-c1>$</span>month</span> = <span class=pl-en>date</span>(<span class=pl-s>&quot;m&quot;</span>,<span class=pl-en>time</span>());</td>
+      </tr>
+      <tr>
+        <td id="L211" class="blob-num js-line-number" data-line-number="211"></td>
+        <td id="LC211" class="blob-code blob-code-inner js-file-line">             </td>
+      </tr>
+      <tr>
+        <td id="L212" class="blob-num js-line-number" data-line-number="212"></td>
+        <td id="LC212" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-en>date</span>(<span class=pl-s>&#39;t&#39;</span>,<span class=pl-en>strtotime</span>(<span class=pl-s1><span class=pl-c1>$</span>year</span>.<span class=pl-s>&#39;-&#39;</span>.<span class=pl-s1><span class=pl-c1>$</span>month</span>.<span class=pl-s>&#39;-01&#39;</span>));</td>
+      </tr>
+      <tr>
+        <td id="L213" class="blob-num js-line-number" data-line-number="213"></td>
+        <td id="LC213" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L214" class="blob-num js-line-number" data-line-number="214"></td>
+        <td id="LC214" class="blob-code blob-code-inner js-file-line">     </td>
+      </tr>
+      <tr>
+        <td id="L215" class="blob-num js-line-number" data-line-number="215"></td>
+        <td id="LC215" class="blob-code blob-code-inner js-file-line">}</td>
       </tr>
 </table>
 
@@ -1207,7 +2002,7 @@
             Copy permalink
           </clipboard-copy>
         </li>
-        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/wdaweb/calendar-NancyBluebee/blame/a3c30a6f892011f0d987c41ca60a5e85117782a6/index.php">View git blame</a></li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/wdaweb/calendar-NancyBluebee/blame/a3c30a6f892011f0d987c41ca60a5e85117782a6/calendar.php">View git blame</a></li>
           <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/wdaweb/calendar-NancyBluebee/issues/new">Reference in new issue</a></li>
       </ul>
     </details-menu>
