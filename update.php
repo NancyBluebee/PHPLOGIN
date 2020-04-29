@@ -1,26 +1,17 @@
 ﻿<?php
+$dsn="mysql:host=localhost;charset=utf8;dbname=school";
+$pdo=new PDO($dsn,"root","");
+date_default_timezone_set("Asia/Taipei");
 
-//update.php
+$sql="update `students` set `name`='王大明' ,`birthday`='1999-09-22',`tel`='0944223311' where `id`='2'";
+$res=$pdo->exec($sql);
 
-$connect = new PDO('mysql:host=localhost;dbname=testing', 'root', '');
+echo $sql;
 
-if(isset($_POST["id"]))
-{
- $query = "
- UPDATE events 
- SET title=:title, start_event=:start_event, end_event=:end_event 
- WHERE id=:id
- ";
- $statement = $connect->prepare($query);
- $statement->execute(
-  array(
-   ':title'  => $_POST['title'],
-   ':start_event' => $_POST['start'],
-   ':end_event' => $_POST['end'],
-   ':id'   => $_POST['id']
-  )
- );
+if($res>=1){
+    echo $res;
+    echo "更新成功!";
+}else{
+    echo $res;
+    echo "更新失敗";
 }
-
-?>
-

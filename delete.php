@@ -1,20 +1,20 @@
 ﻿<?php
 
-//delete.php
+$dsn="mysql:host=localhost;charset=utf8;dbname=school";
+$pdo=new PDO($dsn,"root","");
+date_default_timezone_set("Asia/Taipei");
 
-if(isset($_POST["id"]))
-{
- $connect = new PDO('mysql:host=localhost;dbname=testing', 'root', '');
- $query = "
- DELETE from events WHERE id=:id
- ";
- $statement = $connect->prepare($query);
- $statement->execute(
-  array(
-   ':id' => $_POST['id']
-  )
- );
+$sql="delete from `students` where `id`='3'";
+
+echo $sql;
+
+$res=$pdo->exec($sql);
+
+if($res>=1){
+    echo $res;
+    echo "刪除成功";
+}else{
+
+    echo $res;
+    echo "刪除失敗";
 }
-
-?>
-
