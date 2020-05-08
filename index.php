@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="./css/style/style.css">
 </head>
 <body>
- <?php include "./layout/topbar.php";?>   
+    
+ <?php
+ $pageheader="輸入發票頁"; 
+ include "./layout/topbar.php";?>   
 </body>
 </html>
